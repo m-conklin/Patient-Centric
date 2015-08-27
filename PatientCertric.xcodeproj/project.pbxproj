@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CA058991B7005800063CC96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA058981B7005800063CC96 /* AppDelegate.swift */; };
+		1CA0589C1B7005800063CC96 /* PatientCertric.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CA0589A1B7005800063CC96 /* PatientCertric.xcdatamodeld */; };
+		1CA0589E1B7005800063CC96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA0589D1B7005800063CC96 /* ViewController.swift */; };
+		1CA058A11B7005800063CC96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA0589F1B7005800063CC96 /* Main.storyboard */; };
+		1CA058A31B7005800063CC96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA058A21B7005800063CC96 /* Images.xcassets */; };
+		1CA058A61B7005800063CC96 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CA058A41B7005800063CC96 /* LaunchScreen.xib */; };
+		1CA058B21B7005800063CC96 /* PatientCertricTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA058B11B7005800063CC96 /* PatientCertricTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CA058AC1B7005800063CC96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CA0588B1B7005800063CC96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CA058921B7005800063CC96;
+			remoteInfo = PatientCertric;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CA058931B7005800063CC96 /* PatientCertric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientCertric.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA058971B7005800063CC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CA058981B7005800063CC96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CA0589B1B7005800063CC96 /* PatientCertric.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PatientCertric.xcdatamodel; sourceTree = "<group>"; };
+		1CA0589D1B7005800063CC96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CA058A01B7005800063CC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CA058A21B7005800063CC96 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CA058A51B7005800063CC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1CA058AB1B7005800063CC96 /* PatientCertricTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatientCertricTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA058B01B7005800063CC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CA058B11B7005800063CC96 /* PatientCertricTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCertricTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CA058901B7005800063CC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA058A81B7005800063CC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CA0588A1B7005800063CC96 = {
+			isa = PBXGroup;
+			children = (
+				1CA058951B7005800063CC96 /* PatientCertric */,
+				1CA058AE1B7005800063CC96 /* PatientCertricTests */,
+				1CA058941B7005800063CC96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CA058941B7005800063CC96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CA058931B7005800063CC96 /* PatientCertric.app */,
+				1CA058AB1B7005800063CC96 /* PatientCertricTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CA058951B7005800063CC96 /* PatientCertric */ = {
+			isa = PBXGroup;
+			children = (
+				1CA058981B7005800063CC96 /* AppDelegate.swift */,
+				1CA0589D1B7005800063CC96 /* ViewController.swift */,
+				1CA0589F1B7005800063CC96 /* Main.storyboard */,
+				1CA058A21B7005800063CC96 /* Images.xcassets */,
+				1CA058A41B7005800063CC96 /* LaunchScreen.xib */,
+				1CA0589A1B7005800063CC96 /* PatientCertric.xcdatamodeld */,
+				1CA058961B7005800063CC96 /* Supporting Files */,
+			);
+			path = PatientCertric;
+			sourceTree = "<group>";
+		};
+		1CA058961B7005800063CC96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CA058971B7005800063CC96 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CA058AE1B7005800063CC96 /* PatientCertricTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CA058B11B7005800063CC96 /* PatientCertricTests.swift */,
+				1CA058AF1B7005800063CC96 /* Supporting Files */,
+			);
+			path = PatientCertricTests;
+			sourceTree = "<group>";
+		};
+		1CA058AF1B7005800063CC96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CA058B01B7005800063CC96 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CA058921B7005800063CC96 /* PatientCertric */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA058B51B7005800063CC96 /* Build configuration list for PBXNativeTarget "PatientCertric" */;
+			buildPhases = (
+				1CA0588F1B7005800063CC96 /* Sources */,
+				1CA058901B7005800063CC96 /* Frameworks */,
+				1CA058911B7005800063CC96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatientCertric;
+			productName = PatientCertric;
+			productReference = 1CA058931B7005800063CC96 /* PatientCertric.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CA058AA1B7005800063CC96 /* PatientCertricTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA058B81B7005800063CC96 /* Build configuration list for PBXNativeTarget "PatientCertricTests" */;
+			buildPhases = (
+				1CA058A71B7005800063CC96 /* Sources */,
+				1CA058A81B7005800063CC96 /* Frameworks */,
+				1CA058A91B7005800063CC96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CA058AD1B7005800063CC96 /* PBXTargetDependency */,
+			);
+			name = PatientCertricTests;
+			productName = PatientCertricTests;
+			productReference = 1CA058AB1B7005800063CC96 /* PatientCertricTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CA0588B1B7005800063CC96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Martin Conklin";
+				TargetAttributes = {
+					1CA058921B7005800063CC96 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1CA058AA1B7005800063CC96 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1CA058921B7005800063CC96;
+					};
+				};
+			};
+			buildConfigurationList = 1CA0588E1B7005800063CC96 /* Build configuration list for PBXProject "PatientCertric" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CA0588A1B7005800063CC96;
+			productRefGroup = 1CA058941B7005800063CC96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CA058921B7005800063CC96 /* PatientCertric */,
+				1CA058AA1B7005800063CC96 /* PatientCertricTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CA058911B7005800063CC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA058A11B7005800063CC96 /* Main.storyboard in Resources */,
+				1CA058A61B7005800063CC96 /* LaunchScreen.xib in Resources */,
+				1CA058A31B7005800063CC96 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA058A91B7005800063CC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CA0588F1B7005800063CC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA0589E1B7005800063CC96 /* ViewController.swift in Sources */,
+				1CA0589C1B7005800063CC96 /* PatientCertric.xcdatamodeld in Sources */,
+				1CA058991B7005800063CC96 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA058A71B7005800063CC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA058B21B7005800063CC96 /* PatientCertricTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CA058AD1B7005800063CC96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CA058921B7005800063CC96 /* PatientCertric */;
+			targetProxy = 1CA058AC1B7005800063CC96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CA0589F1B7005800063CC96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CA058A01B7005800063CC96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CA058A41B7005800063CC96 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CA058A51B7005800063CC96 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CA058B31B7005800063CC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CA058B41B7005800063CC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CA058B61B7005800063CC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PatientCertric/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CA058B71B7005800063CC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PatientCertric/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1CA058B91B7005800063CC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PatientCertricTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PatientCertric.app/PatientCertric";
+			};
+			name = Debug;
+		};
+		1CA058BA1B7005800063CC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PatientCertricTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PatientCertric.app/PatientCertric";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CA0588E1B7005800063CC96 /* Build configuration list for PBXProject "PatientCertric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA058B31B7005800063CC96 /* Debug */,
+				1CA058B41B7005800063CC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CA058B51B7005800063CC96 /* Build configuration list for PBXNativeTarget "PatientCertric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA058B61B7005800063CC96 /* Debug */,
+				1CA058B71B7005800063CC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CA058B81B7005800063CC96 /* Build configuration list for PBXNativeTarget "PatientCertricTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA058B91B7005800063CC96 /* Debug */,
+				1CA058BA1B7005800063CC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1CA0589A1B7005800063CC96 /* PatientCertric.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1CA0589B1B7005800063CC96 /* PatientCertric.xcdatamodel */,
+			);
+			currentVersion = 1CA0589B1B7005800063CC96 /* PatientCertric.xcdatamodel */;
+			path = PatientCertric.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1CA0588B1B7005800063CC96 /* Project object */;
+}

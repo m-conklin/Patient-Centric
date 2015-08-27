@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D13E92F6-B553-4665-A874-58942ECB7744</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PatientCertric</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A0DB96287136444DEFD846A2F459283F9C6BB8BF</key>
+		<string>https://github.com/m-conklin/Patient-Centric.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PatientCertric.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A0DB96287136444DEFD846A2F459283F9C6BB8BF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/m-conklin/Patient-Centric.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A0DB96287136444DEFD846A2F459283F9C6BB8BF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A0DB96287136444DEFD846A2F459283F9C6BB8BF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Patient-Centric</string>
+		</dict>
+	</array>
+</dict>
+</plist>
